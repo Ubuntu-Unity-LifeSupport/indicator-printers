@@ -1,3 +1,29 @@
+indicator-printers (0.1.7daily13.03.01-0ubuntu1) raring; urgency=low
+
+  [ Mathieu Trudel-Lapierre ]
+  * debian/control:
+    - Bump debhelper Build-Depends to (>= 9).
+    - Update style to be consistent with other indicators.
+    - Drop Build-Depends on cdbs.
+    - Add a Build-Depends on gnome-common.
+    - Update Vcs-Bzr, Vcs-Browser and add a notice to uploaders.
+    - Add python to Build-Depends for gdbus-codegen.
+  * debian/rules:
+    - Migrate from cdbs to using the dh sequencer.
+    - Override dh_autoreconf to call autogen.sh.
+    - Add and export DPKG_GENSYMBOLS_CHECK_LEVEL = 4.
+    - Override dh_auto_configure to properly pass --disable-static to
+      configure.
+  * debian/compat: bump compat level to 9.
+
+  [ Didier Roche ]
+  * Automatic snapshot from revision 63 (bootstrap)
+
+  [ Automatic PS uploader ]
+  * Automatic snapshot from revision 64
+
+ -- Automatic PS uploader <ps-jenkins@lists.canonical.com>  Fri, 01 Mar 2013 02:01:34 +0000
+
 indicator-printers (0.1.6-0ubuntu3) quantal; urgency=low
 
   * Cherry-pick a fix in trunk for FTBFS (cups changed its API):
