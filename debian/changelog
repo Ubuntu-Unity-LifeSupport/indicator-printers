@@ -1,3 +1,9 @@
+indicator-printers (0.1.7+17.10.20171101-0ubuntu2) focal; urgency=medium
+
+  * Build-depend on python3.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 31 Mar 2020 14:58:08 +0200
+
 indicator-printers (0.1.7+17.10.20171101-0ubuntu1) bionic; urgency=medium
 
   [ Andrea Azzarone ]
