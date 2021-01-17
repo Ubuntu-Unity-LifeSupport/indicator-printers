@@ -1,3 +1,10 @@
+indicator-printers (0.1.7+17.10.20171101-0ubuntu3) hirsute; urgency=medium
+
+  * src/indicator-printer{s-menu,-state-notifier}.c: Mark properties as static
+    to fix FTBFS with GCC 10.
+
+ -- Logan Rosen <logan@ubuntu.com>  Sun, 17 Jan 2021 18:25:40 -0500
+
 indicator-printers (0.1.7+17.10.20171101-0ubuntu2) focal; urgency=medium
 
   * Build-depend on python3.
