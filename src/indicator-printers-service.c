@@ -20,6 +20,7 @@
 #include <libdbusmenu-glib/dbusmenu-glib.h>
 #include <gtk/gtk.h>
 #include <cups/cups.h>
+#include <libintl.h>
 #include "dbus-names.h"
 #include "config.h"
 

@@ -1,3 +1,9 @@
+indicator-printers (0.1.7+17.10.20171101-0ubuntu6) noble; urgency=medium
+
+  * Add missing #include of libintl.h to get prototypes for gettext functions.
+
+ -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Thu, 21 Mar 2024 17:35:05 +1300
+
 indicator-printers (0.1.7+17.10.20171101-0ubuntu5) noble; urgency=medium
 
   * No-change rebuild against libcups2t64.
