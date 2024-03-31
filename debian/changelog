@@ -1,3 +1,9 @@
+indicator-printers (0.1.7+17.10.20171101-0ubuntu7) noble; urgency=medium
+
+  * No-change rebuild for CVE-2024-3094
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Sun, 31 Mar 2024 08:59:00 +0000
+
 indicator-printers (0.1.7+17.10.20171101-0ubuntu6) noble; urgency=medium
 
   * Add missing #include of libintl.h to get prototypes for gettext functions.
