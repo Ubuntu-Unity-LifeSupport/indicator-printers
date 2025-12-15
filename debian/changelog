@@ -1,3 +1,9 @@
+indicator-printers (0.1.7+17.10.20171101-0ubuntu8) resolute; urgency=medium
+
+  * No-change mass rebuild for Ubuntu 26.04 (LP: #2132257)
+
+ -- Graham Inggs <ginggs@ubuntu.com>  Mon, 15 Dec 2025 19:57:27 +0000
+
 indicator-printers (0.1.7+17.10.20171101-0ubuntu7) noble; urgency=medium
 
   * No-change rebuild for CVE-2024-3094
